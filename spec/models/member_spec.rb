@@ -7,10 +7,10 @@ RSpec.describe Member, type: :model do
   it { should have_many(:tasks).dependent(:destroy) }
   # Validation tests
   # ensure columns title and created_by are present before saving
-  it { should validate_presence_of(:img) }
+  # it { should validate_presence_of(:img) }
   it { should validate_presence_of(:first_name) }
   it { should validate_presence_of(:last_name) }
-  it { should validate_presence_of(:tel) }
-  it { should validate_presence_of(:email) }
-  it { should validate_presence_of(:status) }
+  # it { should validate_presence_of(:tel) }
+  # it { should validate_presence_of(:email) }
+  # it { should validate_presence_of(:status) }
 end

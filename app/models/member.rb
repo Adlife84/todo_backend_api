@@ -3,5 +3,5 @@ class Member < ApplicationRecord
     has_many :tasks, dependent: :destroy
 
     # validations
-    validates_presence_of :img, :first_name, :last_name, :tel, :email, :status
+    validates_presence_of :first_name, :last_name
 end
