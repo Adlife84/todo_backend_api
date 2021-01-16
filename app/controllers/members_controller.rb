@@ -36,7 +36,7 @@ class MembersController < ApplicationController
 
     def member_params
         # whitelist params
-        params.permit(:first_name, :last_name)
+        params.permit(:first_name, :last_name, :color)
     end
 
     def set_member
