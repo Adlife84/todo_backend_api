@@ -2,6 +2,6 @@ class Task < ApplicationRecord
   # model association
   belongs_to :member
 
-   # validation
-   validates_presence_of :title
+  #  # validation
+  #  validates_presence_of :title, :done
 end
